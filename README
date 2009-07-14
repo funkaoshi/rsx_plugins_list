@@ -1,6 +1,11 @@
-This plugin is quite simple; it will produce a list of the plugins you have installed in textpattern. To use the plugin, simply place the tag <txp:rsx_plugins_table /> in a form or page template. The plugin will produce a table, which you can style with CSS if you feel so inclined.
+This plugin will display a list containing the basic information about the
+plugins you currently have installed in your textpattern system. The list can
+be styled using CSS, as the list has been given the class
+"plugins-list" To use, simply include the tag
+<txp:rsx_plugins_list /> anywhere you want this list to be
+displayed.
 
-The plugin is rsx_plugins_table.txt, while rsx_plugins_table.php is the source. More information can be found at the Textpattern Forum thread for this plugin. [http://forum.textpattern.com/viewtopic.php?id=5007]
+More information can be found at the Textpattern Forum thread for this plugin. [http://forum.textpattern.com/viewtopic.php?id=5007]
 
 You can use the parameter "show_inactive" to decide if you want to list active or inactive plugins. If it is set to 1, which is the default, inactive plugins will be listed as well as active plugins. If it is set to 0, then only active plugins are displayed.
 
