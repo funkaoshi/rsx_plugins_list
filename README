@@ -1,9 +1,4 @@
-This plugin will display a list containing the basic information about the
-plugins you currently have installed in your textpattern system. The list can
-be styled using CSS, as the list has been given the class
-"plugins-list" To use, simply include the tag
-<txp:rsx_plugins_list /> anywhere you want this list to be
-displayed.
+This plugin will display a list containing the basic information about the plugins you currently have installed in your textpattern system. The list can be styled using CSS, as the list has been given the class "plugins-list". To use, simply include the tag <txp:rsx_plugins_list /> anywhere you want this list to be displayed.
 
 More information can be found at the Textpattern Forum thread for this plugin. [http://forum.textpattern.com/viewtopic.php?id=5007]
 
